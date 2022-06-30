@@ -10,6 +10,7 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send("ok");
 });
+console.log("Ok!!");
 require("./controllers/reqController")(app);
 
 app.listen(3000);
